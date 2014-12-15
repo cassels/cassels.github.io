@@ -7,19 +7,10 @@
 	@frame-number: "00@{i}";
 } 
 
-.frame-color(@i) when (@i >= 7) {
-	@frame-color: #FFF;
-} 
-.frame-color(@i) when (@i < 7) {
-	@frame-color: #FFF;
-} 
-
 .generate-frames(@n, @i: 1) when (@i =< @n) {
-	.gc-frame.gc-frame-@{i} {
+	.gc-frame.gc-frame-@{i} > .gc-img {
 		.frame-number(@i);
-		.frame-color(@i);
     	background-image: url("../imgs/lion/@{frame-number}.png");
-    	background-color: @frame-color;
   	}
   	.generate-frames(@n, (@i + 1));
 }
@@ -30,6 +21,10 @@ body {
 
 h1 {
 	font-size: 60px;
+}
+
+h4 {
+	font-size: 18px;
 }
 
 a {
@@ -43,22 +38,65 @@ h4#scrollDown {
 .gc-frame {
 	height: 340px;
 	width: 100%;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-attachment: fixed;
 	position: relative;
-}
-
-.gc-frame > .gc-content {
-	position: absolute;
-	margin: auto;
-	text-align: center;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 320px;
-	width: 600px;
+	background-color: #FFF;
+	overflow: hidden;
+	.gc-content {
+		position: absolute;
+		margin: auto;
+		text-align: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 320px;
+		width: 600px;
+		z-index: 10;
+	}
+	.gc-img {
+		position: absolute;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+	}
 }
 
 .generate-frames(14);
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 45px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	.gc-frame {
+		.gc-content {
+			width: 100%;
+		}
+		.gc-img {
+			background-size: contain;
+		}
+	}
+}
+
+@media (max-height: 600px) {
+	.gc-frame {
+		.gc-img {
+			width: 80%;
+			margin-left: 10%;
+			background-size: contain;
+		}
+	}
+}
+
+@media (max-width: 340px) {
+	h1 {
+		font-size: 40px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+}

@@ -5,14 +5,26 @@ var iImgHeight = 400;
 var bHeight = iImgHeight;
 
 $(document).ready(function() {
-	var wHeight = $(window).height();
-	bHeight = wHeight / 2;
-	bHeight = (bHeight < iImgHeight) ? iImgHeight : bHeight;
-	$(".gc-frame").height(bHeight);
-	$(".gc-frame").first().height(wHeight);
-	
+	$(".gc-frame").append("<div class=\"gc-img\"></div>");
+	initHeight();
 	$(window).scroll(function(e) {
 		growIfAllowed();
+		var firstHeight = $(".gc-img").first().height();
+		var scrollTop = $(window).scrollTop();			
+		$(".gc-img").each(function(e) {
+			$this = $(this);
+			$parent = $this.parent();
+			var pTop = $parent.offset().top;
+			var pHeight = $parent.height();
+			var tBottom = (pTop - scrollTop - (firstHeight - pHeight));
+			if (tBottom < (pHeight*2) && tBottom > (pHeight*-2)) {
+				$this.css({bottom: tBottom});
+			}
+		});
+	});
+	
+	$(window).resize(function(e) {
+		initHeight();
 	});
 	
 	$("body").keydown(function(e) {
@@ -21,6 +33,14 @@ $(document).ready(function() {
 		}
 	});
 });
+
+function initHeight() {
+	var wHeight = $(window).height();
+	bHeight = wHeight / 2;
+	bHeight = (bHeight < iImgHeight) ? iImgHeight : bHeight;
+	$(".gc-frame").height(bHeight);
+	$(".gc-frame").first().height(wHeight);
+}
 
 function growIfAllowed() {
 	if (canGrow()) {
@@ -39,7 +59,7 @@ function grow(number) {
 	iLoop ++;
 	if (iLoop < maxLoop) {
 		for (i = 1; i <= number; i++) {
-			$("#animationContent").append("<div class=\"gc-frame gc-frame-" + i + "\" style=\"height:" + bHeight + "px\"></div>");
+			$("#animationContent").append("<div class=\"gc-frame gc-frame-" + i + "\" style=\"height:" + bHeight + "px\"><div class=\"gc-img\"></div</div>");
 		}
 	} else {
 		end();

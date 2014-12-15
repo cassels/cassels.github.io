@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 60px;
 }
+h4 {
+  font-size: 18px;
+}
 a {
   cursor: pointer;
 }
@@ -14,12 +17,11 @@ h4#scrollDown {
 .gc-frame {
   height: 340px;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-attachment: fixed;
   position: relative;
+  background-color: #FFF;
+  overflow: hidden;
 }
-.gc-frame > .gc-content {
+.gc-frame .gc-content {
   position: absolute;
   margin: auto;
   text-align: center;
@@ -29,60 +31,84 @@ h4#scrollDown {
   bottom: 0;
   height: 320px;
   width: 600px;
+  z-index: 10;
 }
-.gc-frame.gc-frame-1 {
+.gc-frame .gc-img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+.gc-frame.gc-frame-1 > .gc-img {
   background-image: url("../imgs/lion/001.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-2 {
+.gc-frame.gc-frame-2 > .gc-img {
   background-image: url("../imgs/lion/002.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-3 {
+.gc-frame.gc-frame-3 > .gc-img {
   background-image: url("../imgs/lion/003.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-4 {
+.gc-frame.gc-frame-4 > .gc-img {
   background-image: url("../imgs/lion/004.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-5 {
+.gc-frame.gc-frame-5 > .gc-img {
   background-image: url("../imgs/lion/005.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-6 {
+.gc-frame.gc-frame-6 > .gc-img {
   background-image: url("../imgs/lion/006.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-7 {
+.gc-frame.gc-frame-7 > .gc-img {
   background-image: url("../imgs/lion/007.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-8 {
+.gc-frame.gc-frame-8 > .gc-img {
   background-image: url("../imgs/lion/008.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-9 {
+.gc-frame.gc-frame-9 > .gc-img {
   background-image: url("../imgs/lion/009.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-10 {
+.gc-frame.gc-frame-10 > .gc-img {
   background-image: url("../imgs/lion/010.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-11 {
+.gc-frame.gc-frame-11 > .gc-img {
   background-image: url("../imgs/lion/011.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-12 {
+.gc-frame.gc-frame-12 > .gc-img {
   background-image: url("../imgs/lion/012.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-13 {
+.gc-frame.gc-frame-13 > .gc-img {
   background-image: url("../imgs/lion/013.png");
-  background-color: #ffffff;
 }
-.gc-frame.gc-frame-14 {
+.gc-frame.gc-frame-14 > .gc-img {
   background-image: url("../imgs/lion/014.png");
-  background-color: #ffffff;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .gc-frame .gc-content {
+    width: 100%;
+  }
+  .gc-frame .gc-img {
+    background-size: contain;
+  }
+}
+@media (max-height: 600px) {
+  .gc-frame .gc-img {
+    width: 80%;
+    margin-left: 10%;
+    background-size: contain;
+  }
+}
+@media (max-width: 340px) {
+  h1 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 14px;
+  }
 }
