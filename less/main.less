@@ -1,1 +1,64 @@
 @import "variables.less";
+/* Mixins */
+.frame-number(@i) when (@i >= 10) {
+	@frame-number: "0@{i}";
+} 
+.frame-number(@i) when (@i < 10) {
+	@frame-number: "00@{i}";
+} 
+
+.frame-color(@i) when (@i >= 7) {
+	@frame-color: #FFF;
+} 
+.frame-color(@i) when (@i < 7) {
+	@frame-color: #FFF;
+} 
+
+.generate-frames(@n, @i: 1) when (@i =< @n) {
+	.gc-frame.gc-frame-@{i} {
+		.frame-number(@i);
+		.frame-color(@i);
+    	background-image: url("../imgs/lion/@{frame-number}.png");
+    	background-color: @frame-color;
+  	}
+  	.generate-frames(@n, (@i + 1));
+}
+
+body {
+	font-family: "Lato", "Helvitica", Ariel, sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+a {
+	cursor: pointer;
+}
+
+h4#scrollDown {
+	display: none;
+}
+
+.gc-frame {
+	height: 340px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.gc-frame > .gc-content {
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 320px;
+	width: 600px;
+}
+
+.generate-frames(14);
