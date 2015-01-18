@@ -1,0 +1,10 @@
+{% comment %}
+Returns a string of hyperlinks e.g. A, B, C
+{% endcomment %}
+{% for catId in page.categories %}	
+	{% assign cat_data = site.data.categories | where:"slug", catId %}
+	{% assign cat = cat_data | first %}
+	<a href="/blog/category/{{ cat.slug }}/">
+		{{ cat.name }}
+	</a>
+{% endfor %}

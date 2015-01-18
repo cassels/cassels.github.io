@@ -1,0 +1,4 @@
+{% assign postArr = site.tags[page.tag] %}
+{% assign tag_data = site.data.tags | where:"slug", page.tag %}
+{% assign pageTag = tag_data | first %}
+{% include blog_list.html %}

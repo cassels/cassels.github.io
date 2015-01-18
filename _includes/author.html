@@ -1,0 +1,5 @@
+{% for member in site.data.authors %}
+	{% if member.id == page.author %}
+		{% assign author = member %}
+	{% endif %}
+{% endfor %}

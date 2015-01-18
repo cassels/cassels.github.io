@@ -1,0 +1,78 @@
+{% include header.html %}
+{% include navigation.html %}
+{% include author.html %}
+<div class="body-wrap">
+	<div class="post-content-wrap">
+		<!--<div class="post-img parallax-back" data-parallax-z="0.5" style="background-image:url('{{site.baseurl}}{{page.picture}}')"></div>-->
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-8 margin-top">
+					<div class="box hidden-xs">
+						<div class="relatedPosts">
+							{% include post_related.html %}
+						</div>
+					</div>
+					<div class="post-content box">
+						<h1>{{ page.title }}</h1>
+						<h6>By {{ author.name }} in {% include post_categories.html %}</h6>
+						<hr />
+						<div>
+							{% include social_variables.html %}
+							{% include social_buttons.html %}
+						</div>
+						<hr />
+						<div class="post-content-thumb">
+							<img class="post-content-thumb-img" src="{{ site.baseurl }}{{ page.thumb.url }}" alt="{{ page.thumb.alt }}" />
+							{% if page.thumb.cap %}
+							<div class="post-content-thumb-caption">{{ page.thumb.cap }}</div>
+							{% endif %}
+						</div>
+						{{content}}
+						<hr />
+						<div>
+							{% include social_buttons.html %}
+						</div>
+						<hr />
+						<div>
+							<div class="about">
+								<div class="img-circle img-circle-wrap">
+									<img class="img-circle" src="{{ site.baseurl }}/{{ author.img }}" />
+								</div>
+								<h2>{{ author.name }}</h2>
+								<h5>{{ author.tag }}</h5>
+								{{ author.about }}
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="relatedPosts">
+							{% include post_related.html %}
+						</div>
+					</div>
+					<div class="box">
+						<div class="comments">
+							{% include disqus_feed.html %}
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 margin-top">
+					<div class="post-related box">
+						<div class="about">
+							<div class="img-circle img-circle-wrap">
+								<img class="img-circle" src="{{ site.baseurl }}/{{ author.img }}" />
+							</div>
+							<h2>{{ author.name }}</h2>
+							<h5>{{ author.tag }}</h5>
+							{{ author.about }}
+						</div>
+						<hr />
+						{% include post_tags.html %}
+						<hr />
+						{% include twitter_feed.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% include footer.html %}

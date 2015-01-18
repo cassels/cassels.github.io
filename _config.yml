@@ -1,0 +1,14 @@
+permalink: /:categories/:year/:month/:day/:title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: gcassels
+      
+gems:
+  - jekyll-sitemap
+  
+production-url: http://graemecassels.com

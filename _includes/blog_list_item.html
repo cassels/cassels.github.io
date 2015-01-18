@@ -1,0 +1,10 @@
+<a href="{{ post.url }}/">
+<div class="box grid-item" style="background-image: url({{site.baseurl}}{{post.thumb.url}})">
+	<div class="title">
+		{{ post.title }}
+		<div class="excerpt">
+			{{ post.excerpt | strip_html | truncate: 90, "..."}}
+		</div>
+	</div>
+</div>
+</a>

@@ -1,0 +1,62 @@
+{% include header.html %}
+{% include navigation.html %}
+{% include author.html %}
+<div class="body-wrap">
+	<div class="post-list-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					{% if pageTag.name %}
+					<h1>Articles about {{ pageTag.name | capitalize }}</h1>
+					<h5><a href="{{ site.baseurl }}/blog/">View All Articles</a></h5>
+					{% elsif pageCat.name %}
+					<h1>Articles in {{ pageCat.name | capitalize }}</h1>
+					{% else %}
+					<h1>All Articles</h1>
+					{% endif %}
+				</div>
+			</div>
+			<div class="row">
+			{% if postArr and postArr.size > 0 %}
+				{% for post in postArr limit: 1 %}
+				<div class="col-md-6 large">
+					{% include blog_list_item.html %}
+				</div>
+				{% endfor %}
+				<div class="col-md-6">
+					<div class="row">
+						{% for post in postArr limit: 2 offset: 1 %}
+						<div class="col-md-6">
+							{% include blog_list_item.html %}
+						</div>
+						{% endfor %}
+					</div>
+					<div class="row">
+						{% for post in postArr limit: 2 offset: 3 %}
+						<div class="col-md-6">
+							{% include blog_list_item.html %}
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+				{% for post in postArr offset: 5 %}
+					{% capture modulo %}{{ forloop.index0 | modulo:4 }}{% endcapture %}
+					{% if modulo == '0' %}
+			</div>
+			<div class="row">
+					{% endif %}
+				<div class="col-md-3">
+					{% include blog_list_item.html %}
+				</div>
+				{% endfor %}
+			{% else %}
+				<div class="col-sm-12">
+					<h3>Sorry</h3>
+					<p>I've not written any articles yet. Check back soon.</p>
+				</div>
+			{% endif %}
+			</div>	
+		</div>		
+	</div>
+</div>
+{% include footer.html %}

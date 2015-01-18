@@ -1,0 +1,57 @@
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				{% if site.posts and site.posts.size > 0 %}
+				<div class="col-md-4">
+					<h5>Recent Posts</h5>
+					<ul class="list-unstyled">
+					{% for post in site.posts | limit: 5 %}
+						<a href="{{ post.url }}"><li>{{ post.title }}</li></a>
+					{% endfor %}
+					</ul>
+				</div>
+				<div class="col-md-8 text-center">
+					{% include post_tags.html %}
+				</div>
+				{% endif %}
+			</div>
+		</div>
+		<!--<div class="footer">
+			<div class="container">
+				<div class="col-md-12 text-center margin-top">
+					<ul class="fa-ul list-inline">
+						<li>
+							<a href="">
+							<span class="fa-stack fa-2x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+							<span class="fa-stack fa-2x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>-->
+	</div>
+	<!-- jQuery Version 1.11.0 -->
+    <script src="{{site.baseurl}}/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+	
+	<!-- Numeral -->
+	<script src="{{site.baseurl}}/js/numeral.min.js"></script>
+	
+	<!-- Main -->
+    <script src="{{site.baseurl}}/js/script.js"></script>
+    <script src="{{site.baseurl}}/js/social_buttons.js"></script>
+	</body>
+</html>

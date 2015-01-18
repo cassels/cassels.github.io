@@ -1,0 +1,14 @@
+<div>
+<ul class="tags">
+{% for tagStr in site.tags limit: 30 %}
+    <li style="font-size: {{ tagStr | last | size | times: 100 | divided_by: site.tags.size | plus: 80 }}%">
+    	{% assign tagId = tagStr | first %}
+		{% assign tag_data = site.data.tags | where:"slug", tagId %}
+		{% assign tag = tag_data | first %}
+        <a href="/blog/tag/{{ tag.slug }}/">
+            {{ tag.name }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+</div>

@@ -1,0 +1,49 @@
+---
+author: gcassels
+---
+{% include header.html %}
+{% include navigation.html %}
+{% include author.html %}
+<div class="body-wrap">
+	<div class="post-content-wrap">
+		<!--<div class="post-img parallax-back" data-parallax-z="0.5" style="background-image:url('{{site.baseurl}}/{{author.bg}}'); background-position-x: center"></div>-->
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-8 margin-top">
+					<div class="post-content box">
+						<div>
+							<div class="about">
+								<div class="img-circle img-circle-wrap">
+									<img class="img-circle" src="{{ site.baseurl }}/{{ author.img }}" />
+								</div>
+								<h2>About {{ author.name }}</h2>
+								<h5>{{ author.tag }}</h5>
+								{{ author.about }}
+								{{ author.about-extra }}
+							</div>
+						</div>
+					</div>
+					{% if site.posts and site.posts.size > 0 %}
+					<div class="box">
+						<div class="relatedPosts">
+							<div class="clearfix related-content">
+							{% for post in site.posts | limit: 3 %}
+								{% include post_related_item.html %}
+							{% endfor %}
+							</div>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+				<div class="col-md-4 margin-top">
+					<div class="post-related box">
+						{% include twitter_feed.html %}
+						<hr />
+						{% include post_tags.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% include footer.html %}

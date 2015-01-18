@@ -1,0 +1,4 @@
+{% assign postArr = site.categories[page.cat] %}
+{% assign cat_data = site.data.categories | where:"slug", page.cat %}
+{% assign pageCat = cat_data | first %}
+{% include blog_list.html %}
