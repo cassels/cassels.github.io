@@ -1,5 +1,5 @@
 ---
-title: Testing?
+title: Testing
 thumb:
   url : /imgs/posts/thumbs/blog.png
   alt : blog 3d render
