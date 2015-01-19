@@ -11,13 +11,15 @@
 	
 	<meta property="fb:app_id" content="682741705180900"/>
 	
-	<!--<meta property="og:url" content="{{ site.production-url }}{{ page.url }}" />--> 
+	{% assign img = '/imgs/gcassels.jpg' %}
+	{% if page.thumb.url %}
+		{% assign img = page.thumb.url %}
+	{% endif %}
+	
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:description" content="{{ page.excerpt | strip_html }}" /> 
-	<meta property="og:image" content="{{ site.production-url }}{{ page.thumb.url }}" /> 
-
-	<!--<link href="{{ site.production-url }}{{ page.url }}" rel="canonical">-->
+	<meta property="og:image" content="{{ site.production-url }}{{ img }}" /> 
 	
     <title>Graeme Cassels</title>
 
