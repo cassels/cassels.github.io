@@ -19,7 +19,21 @@ author: gcassels
 								<h2>About {{ author.name }}</h2>
 								<h5>{{ author.tag }}</h5>
 								{{ author.about }}
-								{{ author.about-extra }}
+								<hr />
+								<ul class="social-ul list-inline list-unstyled">
+									<li><a href="https://twitter.com/intent/user?screen_name=CasselsGraeme" class="social-twitter">
+										<span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+										</span></a>
+									</li>
+									<li><a href="https://uk.linkedin.com/in/graemecassels" target="_blank" class="social-linkedin">
+										<span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+										</span></a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -38,8 +52,6 @@ author: gcassels
 				<div class="col-md-4 margin-top">
 					<div class="post-related box">
 						{% include twitter_feed.html %}
-						<hr />
-						{% include post_tags.html %}
 					</div>
 				</div>
 			</div>
