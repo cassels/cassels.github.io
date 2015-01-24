@@ -22,14 +22,14 @@
 	
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:type" content="article" />
-	<meta property="og:description" content="{{ page.excerpt | strip_html }}" /> 
+	<meta property="og:description" content="{{ desc | strip_html }}" /> 
 	<meta property="og:image" content="{{ site.production-url }}{{ img }}" /> 
 	
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@CasselsGraeme">
 	<meta name="twitter:creator" content="@CasselsGraeme">
 	<meta name="twitter:title" content="{{ page.title }}">
-	<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+	<meta name="twitter:description" content="{{ desc | strip_html }}">
 	<meta name="twitter:image:src" content="{{ site.production-url }}{{ img }}">
 	
 	<link rel="icon" type="image/png" href="{{ site.production-url }}/imgs/faviconSM.png">
