@@ -3,7 +3,11 @@
 	<div class="title">
 		{{ post.title }}
 		<div class="excerpt">
-			{{ post.excerpt | strip_html | truncate: 90, "..."}}
+			{% assign desc = post.excerpt %}
+			{% if post.desc %}
+				{% assign desc = post.desc %}
+			{% endif %}
+			{{ desc | strip_html | truncate: 170, "..."}}
 		</div>
 	</div>
 </div>

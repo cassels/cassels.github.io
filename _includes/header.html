@@ -6,7 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    {% assign desc = site.data.authors[0].desc | strip_html %}
+	{% if page.desc %}
+		{% assign desc = page.desc | strip_html %}
+	{% endif %}
+    <meta name="description" content="{{ desc }}">
     <meta name="author" content="@CasselsGraeme">
 	
 	<meta property="fb:app_id" content="682741705180900"/>
