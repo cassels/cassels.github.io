@@ -3,24 +3,31 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% assign desc = site.data.authors[0].desc | strip_html %}
-	{% if page.desc %}
-		{% assign desc = page.desc | strip_html %}
+	{% assign delimiter = '' %}
+	{% if page.title %}
+		{% assign delimiter = ' - ' %}
 	{% endif %}
-    <meta name="description" content="{{ desc }}">
-    <meta name="author" content="@CasselsGraeme">
-	
-	<meta property="fb:app_id" content="682741705180900"/>
-	
+    <title>{{ page.title }}{{ delimiter }}Graeme Cassels</title>
+    
 	{% assign img = '/imgs/gcassels.jpg' %}
 	{% if page.thumb.url %}
 		{% assign img = page.thumb.url %}
 	{% endif %}
 	
-	<meta property="og:title" content="{{ page.title }}" />
+	{% assign desc = site.data.authors[0].desc | strip_html %}
+	{% if page.desc %}
+		{% assign desc = page.desc | strip_html %}
+	{% endif %}
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ desc }}">
+    <meta name="author" content="@CasselsGraeme">
+	
+	<meta property="fb:app_id" content="682741705180900"/>
+	
+	<meta property="og:title" content="{{ page.title }}{{ delimiter }}Graeme Cassels" />
 	<meta property="og:type" content="article" />
 	<meta property="og:description" content="{{ desc | strip_html }}" /> 
 	<meta property="og:image" content="{{ site.production-url }}{{ img }}" /> 
@@ -28,17 +35,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@CasselsGraeme">
 	<meta name="twitter:creator" content="@CasselsGraeme">
-	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:title" content="{{ page.title }}{{ delimiter }}Graeme Cassels">
 	<meta name="twitter:description" content="{{ desc | strip_html }}">
 	<meta name="twitter:image:src" content="{{ site.production-url }}{{ img }}">
 	
 	<link rel="icon" type="image/png" href="{{ site.production-url }}/imgs/faviconSM.png">
 	
-	{% assign delimiter = '' %}
-	{% if page.title %}
-		{% assign delimiter = ' - ' %}
-	{% endif %}
-    <title>{{ page.title }}{{ delimiter }}Graeme Cassels</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
