@@ -6,7 +6,7 @@
 					<h5>Recent Posts</h5>
 					<ul class="list-unstyled">
 					{% for post in site.posts | limit: 5 %}
-						<a href="{{ post.url }}"><li>{{ post.title }}</li></a>
+						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 					{% endfor %}
 					</ul>
 				</div>
