@@ -71,6 +71,15 @@ function shareLinks() {
 		elem.data("url", href + "?url=" + encodeURIComponent(url) + "&original_referer=" + encodeURIComponent(document.location.href) + "&source=tweetbutton&text=" + encodeURIComponent(title) + "&via=" + encodeURIComponent(via));
 	});
 	
+	$(".social-tweetable").each(function() {
+		var elem = $(this);
+		href = elem.data("href");
+		quote = "\"" + elem.data("quote") + "\"";
+		hashtags = elem.data("hashtags") || "";
+		via = "CasselsGraeme";
+		elem.data("url", href + "?url=" + encodeURIComponent(url) + "&original_referer=" + encodeURIComponent(document.location.href) + "&source=tweetbutton&text=" + encodeURIComponent(quote) + "&via=" + encodeURIComponent(via) + "&hashtags=" + encodeURIComponent(hashtags));
+	});
+	
 	$(".social-linkedin").each(function() {
 		var elem = $(this);
 		href = elem.data("href");
