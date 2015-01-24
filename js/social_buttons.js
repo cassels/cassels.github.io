@@ -61,9 +61,9 @@ function shareLinks() {
 		var elem = $(this);
 		href = elem.data("href");
 		appId = "682741705180900";
-		elem.data("url", href + "?app_id=" + appId + "&u=" + encodeURIComponent(url) + "&display=popup&ref=plugin");
+		elem.data("url", href + "?app_id=" + appId + "&u=" + encodeURIComponent(url) + "&display=popup");
 	});
-	
+
 	$(".social-twitter").each(function() {
 		var elem = $(this);
 		href = elem.data("href");
