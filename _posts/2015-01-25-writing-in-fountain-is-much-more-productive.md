@@ -1,5 +1,5 @@
 ---
-title: Writing in Fountain is much more Productive.
+title: Writing in Fountain is much more Productive
 desc: Fountain will do to Screenwriters, what DSLRs have done for Filmmakers. Fountain is built for the modern day writer. It's simple, elegant, and free.
 thumb:
   url : /imgs/posts/thumbs/fountain-logo.png
