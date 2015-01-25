@@ -33,11 +33,11 @@ I write whenever and wherever I can squeeze in a quick half an hour. So for me, 
 
 Technically, [Fountain][1] is not a screenwriting app, its a markup language. If your technically minded then think of it as a screenwriter's version of John Gruber's [markdown][2]. If your not technically minded then it's magic, pure magic.
 
+>Fountain will do to writing, what DSLRs have done for filmmaking.<a class="social social-tweetable" data-quote="Fountain will do to writing, what DSLRs have done for filmmaking." data-href="https://twitter.com/intent/tweet" data-hashtags="screenwriting,fountain">Tweet This!</a>
+
 ##Portability
 
 Fountain is just plain text, so it can be written in any text editor on any platform, even mobile and cloud platforms like Google Docs. I can collaborate with anyone from anywhere because it's readable by everyone and everything. At my desk, on the train, walking to work, I can write a screenplay wherever I want.
-
->Fountain will do to writing, what DSLRs have done for filmmaking.<a class="social social-tweetable" data-quote="Fountain will do to writing, what DSLRs have done for filmmaking." data-href="https://twitter.com/intent/tweet" data-hashtags="screenwriting,fountain">Tweet This!</a>
 
 ##Productivity
 
