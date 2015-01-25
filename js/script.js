@@ -25,9 +25,9 @@ $(document).ready(function() {
 		$(this).height($(this).width());
 		$(this).find(".excerpt").hide();
 	}).on('mouseenter', function() {
-		$(this).find(".excerpt").slideDown();
+		$(this).find(".excerpt").stop().slideDown();
 	}).on('mouseleave', function() {
-		$(this).find(".excerpt").slideUp();
+		$(this).find(".excerpt").stop().slideUp();
 	});
 	
 });
