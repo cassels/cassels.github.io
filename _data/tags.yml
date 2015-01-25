@@ -1,20 +1,5 @@
-- slug: filmmaking
-  name: Filmmaking
-  
-- slug: casting
-  name: Casting
-  
-- slug: directing
-  name: Directing
-  
 - slug: acting-performance
   name: Acting Performance
-  
-- slug: character-discovery
-  name: Character Discovery
-  
-- slug: character-development
-  name: Character Delevopment
   
 - slug: awards
   name: Awards
@@ -22,20 +7,53 @@
 - slug: awards-oscars
   name: Oscars
   
+- slug: blogging
+  name: Blogging
+  
+- slug: casting
+  name: Casting
+    
+- slug: character-development
+  name: Character Delevopment
+ 
+- slug: character-discovery
+  name: Character Discovery
+
+- slug: directing
+  name: Directing
+  
+- slug: every-frame-a-painting
+  name: Every Frame a Painting
+  
+- slug: filmmaking
+  name: Filmmaking
+  
+- slug: fountain
+  name: Fountain
+  
+- slug: john-august
+  name: John August
+   
+- slug: productivity
+  name: Productivity 
+  
 - slug: professional-branding
   name: Professional Branding
   
 - slug: professional-development
   name: Professional Development
-  
-- slug: blogging
-  name: Blogging
-  
+
 - slug: robin-williams
   name: Robin Williams
+
+- slug: slugline
+  name: Slugline
   
 - slug: tony-zhou
   name: Tony Zhou
   
-- slug: every-frame-a-painting
-  name: Every Frame a Painting
+- slug: tools
+  name: Tools
+  
+- slug: writing
+  name: Writing
