@@ -138,6 +138,10 @@ iframe {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
 	color: #fafafa;
+	
+	-webkit-transition: color 0.15s;
+	-moz-transition: color 0.15s;
+	transition: color 0.15s;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -298,6 +302,10 @@ em {
 		border: 1px solid #ededed;
 		margin-left: -1px;
 		position: relative;
+		
+		-webkit-transition: background-color 0.15s;
+		-moz-transition: background-color 0.15s;
+		transition: background-color 0.15s;
 		&:hover {
 			background: #eee;
 		}
