@@ -33,7 +33,7 @@ The word [PASSION][1] originates from the word PATI which means SUFFER in Latin.
 
 Sometimes filmmaking can be hard, painful and expensive. Sometimes you can loose the inspiration that made you tick. Sometimes you can fall victim to some foul-mouthed critics, but hopefully you can take comfort in knowing that your suffering will be worth it. 
 
->PASSION comes from PATI, which means SUFFER - explains a lot<a class="social social-tweetable" data-quote="PASSION comes from PATI, which means SUFFER - explains a lot" data-href="https://twitter.com/intent/tweet" data-hashtags="filmmaking,art">Tweet This!</a>
+>PASSION comes from PATI, which means SUFFER - explains a lot<a class="social social-tweetable" data-quote="PASSION comes from PATI, which means SUFFER - explains a lot" data-href="https://twitter.com/intent/tweet" data-hashtags="filmmaking,art,passion">Tweet This!</a>
 
 No pain, no gain as they say.
 
