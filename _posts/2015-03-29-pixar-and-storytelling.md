@@ -80,13 +80,15 @@ tags:
 
 At the young age of four years old, [Pixar][pixar]'s [Toy Story][toy1] was released in the cinemas and was one of, if not *the*, defining film of my childhood and future career(s). 
 
-Like many children, Toy story struck a chord in me. Each film that [Pixar][pixar] subsequently released ([A Bug's Life][bugs], [Toy Story 2][toy2], [Monsters Inc][monsters]) fuelled my imagination and I found myself desperately trying to emulate the magic. 
+Like many children, Toy story struck a chord in me. Each film that [Pixar][pixar] subsequently released ([A Bug's Life][bugs], [Toy Story 2][toy2], [Monsters Inc][monsters]) fuelled my imagination until I found myself desperately trying to emulate the magic. 
 
-By the time [Finding Nemo][nemo] came out, twelve year old me was making all kinds of animations. My mother loved them, as mum's do, but believe me when I say they were shockingly bad. Eventually it led to an interest in computers, and computer animation in particular. 
+By the time [Finding Nemo][nemo] came out, twelve year old me was making all kinds of animations. My mother loved them, as mum's do, but believe me when I say they were shockingly bad. 
 
-For the next six years I learned all there was to know about [Steve Jobs][jobs], [Ed Catmull][catmull] and the team behind the technology at Pixar until I went off to study Computer Science at the University of Strathclyde still very much in love with modern Pixar films ([Wall-e][walle], [Up][up]).
+My interest in the magic of Pixar eventually led to an interest in computers, and computer graphics in particular. 
 
-Throughout Pixar's life, which is longer than mine, they've hardly put a foot out of place. With the possible exception of [Cars][cars1] and [Cars 2][cars2], every single Pixar film is a gem of pure joy and I'll rush to the cinema for every new film filled with glee. Why so? Because they know the art of storytelling. 
+For the next six years I learned all there was to know about [Steve Jobs][jobs], [Ed Catmull][catmull] and the team behind the technology at Pixar, building on my knowledge in preparation for my Computer Science degree at the University of Strathclyde. At eighteen, I moved out of the family home and started my degree still very much in love with modern Pixar films ([Wall-e][walle], [Up][up]).
+
+Throughout Pixar's life, they've hardly put a foot out of place. With the possible exception of [Cars][cars1] and [Cars 2][cars2], every single Pixar film is a gem of pure joy and I'll rush to the cinema, filled with glee, for every new film released. Why so? Because they know the art of storytelling. 
 
 In 2011, a former story artist at Pixar, [Emma Coats][emma], tweeted a series of tips from her time at Pixar. Imgur artist, [DinoIgnacio][dino], superimposed these tips onto stills of their films. 
 
