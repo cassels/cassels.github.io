@@ -264,6 +264,10 @@ em {
 	}
 	
 	.post-content {
+		img {
+			width: 100%;
+			margin-bottom: 20px;
+		}
 		.post-content-thumb {
 			float: right;
 			margin: 0 0 20px 20px;
@@ -272,6 +276,7 @@ em {
 			.post-content-thumb-img {
 				width: 250px;
 				border: 1px solid #eee;
+				margin: 0;
 			}
 			.post-content-thumb-caption {
 				padding: 5px;

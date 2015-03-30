@@ -30,4 +30,9 @@ $(document).ready(function() {
 		$(this).find(".excerpt").stop().slideUp();
 	});
 	
+	
+	$('a.gallery').featherlightGallery({
+		openSpeed: 300
+	});
+	
 });

@@ -1,0 +1,7 @@
+{% if page.gallery %}
+	<div class="post-image-gallery">
+	{% for img in page.gallery %}
+		<a class="gallery" href="{{ img.src }}"><img src="{{ img.src }}" alt="{{ img.alt }}" /></a>
+	{% endfor %}					
+	</div>		
+{% endif %}
