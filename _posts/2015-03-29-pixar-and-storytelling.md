@@ -58,7 +58,8 @@ tags:
 - storytelling
 - writing
 - character-development
-- character-discovery 
+- character-discovery
+- tips 
 ---
 
 [pixar]: http://www.pixar.com/
