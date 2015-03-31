@@ -22,19 +22,19 @@ He waved his hands through the air and drew an imaginary triangle.
 
 On one corner he placed the imaginary word "good" and on the other two corners he placed "fast" and "cheap" - also imaginary, of course.
 
-An imaginary triangle with imaginary words was going to be a bitch to blog about, so I drew up a quick diagram to explain better.
+Trying to blog about an imaginary triangle with imaginary words is a joke, so I've drawn a quick diagram to explain better.
 
 ![Indie Filmmaking Triangle][diagram]
 
-Essentially, the concept of the independent filmmaking triangle is that you can pick any edge you want from the triangle, but only one. 
+Essentially, the concept of the independent filmmaking triangle is that you pick an edge, any edge, but you can only have one. 
 
 Good & Fast, Fast & Cheap, or Cheap & Good, but not all three.
 
-No matter what edge you choose for your film, it can lead to success. Peter's grievance was that he feels filmmakers quite often push for the middle without realising and don't have the resources to pull it off.
+Regardless of the edge you choose, your film can be a success. Peter's grievance was that he feels filmmakers quite often push for the middle of the triangle without realising and don't have the resources to pull it off.
 
 They'll start on one edge and step by step through the production process they'll push it closer to the middle so that by the time Peter gets his hands on the footage as an editor, the footage captured is inconsistent with the initial vision.
 
-Perhaps you disagree, perhaps you think the middle of the triangle is possible and that may be the case but I think Peter's underlying point is an excellent note for filmmakers.
+Perhaps you disagree, but I think Peter's underlying point is an excellent note for filmmakers.
 
 Stick to a strong vision from script to screen.
 
