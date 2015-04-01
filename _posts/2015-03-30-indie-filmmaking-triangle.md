@@ -16,7 +16,7 @@ tags:
 [diagram]: /imgs/posts/images/indiefilm-triangle.jpg
 [peter]:  https://twitter.com/peterstewart866
 
-The indie filmmaking triangle was brought up at a birthday party this weekend by a good friend of mine, [Peter Stewart][peter], as he explained to the group the restrictions of independent filmmaking from his point of view as an editor. 
+The indie filmmaking triangle was brought up at a birthday party last weekend by a good friend of mine, [Peter Stewart][peter], as he explained to the group the restrictions of independent filmmaking from his point of view as an editor. 
 
 He waved his hands through the air and drew an imaginary triangle.
 
@@ -30,11 +30,11 @@ Essentially, the concept of the independent filmmaking triangle is that you pick
 
 Good & Fast, Fast & Cheap, or Cheap & Good, but not all three.
 
-Regardless of the edge you choose, your film can be a success. Peter's grievance was that he feels filmmakers quite often push for the middle of the triangle without realising and don't have the resources to pull it off.
+Peter's grievance wasn't with the choice of edge but with the fact that too many filmmakers push for the middle of the triangle without the resources to pull it off.
 
 They'll start on one edge and step by step through the production process they'll push it closer to the middle so that by the time Peter gets his hands on the footage as an editor, the footage captured is inconsistent with the initial vision.
 
-Perhaps you disagree, but I think Peter's underlying point is an excellent note for filmmakers.
+All edges can lead to success but Peter's underlying point is an excellent note for filmmakers.
 
 Stick to a strong vision from script to screen.
 
