@@ -406,6 +406,9 @@ em {
 
 .social-ul {
 	text-align: center;
+	li {
+		vertical-align: middle;
+	}
 	.social-email {
 		color: #428bca;
 	}
@@ -423,6 +426,15 @@ em {
 	}
 	.social-pinterest {
 		color: #C92228;
+	}
+	.social-youtube {
+		color: #CD201F;
+	}
+	.social-vimeo {
+		color: #1AB7EA;
+	}
+	.social-imdb {
+		color: #1AB7EA;
 	}
 	.social-counter {
 		position: absolute;
