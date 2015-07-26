@@ -20,20 +20,7 @@ author: gcassels
 								<h5>{{ author.tag }}</h5>
 								{{ author.about }}
 								<hr />
-								<ul class="social-ul list-inline list-unstyled">
-									<li><a href="https://twitter.com/intent/user?screen_name=CasselsGraeme" class="social-twitter">
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-										</span></a>
-									</li>
-									<li><a href="https://uk.linkedin.com/in/graemecassels" target="_blank" class="social-linkedin">
-										<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-										</span></a>
-									</li>
-								</ul>
+								{% include social_buttons_personal.html %}
 							</div>
 						</div>
 					</div>
