@@ -68,4 +68,7 @@
   name: Tips
   
 - slug: indiefilm
-  name: Indie Film
+  name: Indie Film  
+  
+- slug: shortfilm
+  name: Short Film
