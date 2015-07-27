@@ -15,6 +15,13 @@ $content-size: 600px;
 $footer-size: 160px;
 $bg: #FFF;
 
+
+/*media sizes*/
+$break-lg: 1080px;
+$break-md: 720px;
+$break-sm: 480px;
+$break-xs: 360px;
+
 /*.row {
     display: table;
 }
@@ -158,6 +165,10 @@ iframe {
 .navbar-default .navbar-brand {
 	font-size: 1.4em;
 	letter-spacing: 0.5em;
+	@media screen and (max-width: $break-xs) {
+		font-size: 1.3em;
+		letter-spacing: 0.4em;
+	}
 }
 
 .navbar-default .navbar-toggle {
@@ -205,6 +216,7 @@ em {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	margin: 0;
 	.banner {
 		position: absolute;
 		top: 0;
@@ -223,6 +235,19 @@ em {
 			color: #999;
 			margin: 10px 0;
 			line-height: 1.1em;
+		}
+		@media screen and (max-width: $break-sm) {
+			h1 {
+				font-size: 40px;
+			}
+			h4 {
+				font-size: 14px;
+			}
+		}
+		@media screen and (max-width: $break-xs) {
+			h4 {
+				font-size: 13px;
+			}
 		}
 	}
 }
