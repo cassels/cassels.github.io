@@ -4,7 +4,7 @@ desc: There has been a growing debate over the last decade or so regarding the p
 thumb:
   url : /imgs/posts/thumbs/camera-slate.jpg
   alt : camera slate
-  cap : Bob Prosser - <a href="http://en.wikipedia.org/wiki/en:Creative_Commons"><i class="fa fa-copyright"></i></a> <a href="https://www.flickr.com/photos/b-love/13933778110">Original Source</a>
+  cap : Bob Prosser - <a href="http://en.wikipedia.org/wiki/en:Creative_Commons"><i class="fa fa-copyright"></i></a> <a target="_blank" href="https://www.flickr.com/photos/b-love/13933778110">Original Source</a>
 categories:
 - filmmaking
 tags: 
