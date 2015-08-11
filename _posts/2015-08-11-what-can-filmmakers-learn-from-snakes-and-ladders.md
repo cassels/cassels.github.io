@@ -25,6 +25,8 @@ So let's assume that each square is a step in your filmmaking career. Each ladde
 
 Now when you look up to filmmakers, actors, writers, editors, or whoever you aspire to, and wonder how they achieved so much, take comfort in the fact that they are playing the same game as you.
 
+>A filmmaking career is simply a huge game of Snakes and Ladders! <a class="social social-tweetable" data-quote="A filmmaking career is simply a huge game of Snakes and Ladders!" data-href="https://twitter.com/intent/tweet" data-hashtags="filmmakers, creative">Tweet This!</a>
+
 So let's assume the last square is the stuff of legends. It's significantly more ambitious than your most ambitious career goal. You're not meant to achieve this level of success but by aiming for it, you could soar higher than you'll ever imagine.
 
 The first square is your decision to be a filmmaker, and so from that point onwards it's as easy as rolling the dice and taking the next step. Maybe that next step is a ladder, fantastic. Maybe it's a snake, not-so-fantastic. But most importantly, keep rolling the dice and keep taking the next step. 
