@@ -13,9 +13,7 @@ tags:
 
 Unfortunately, a successful career in filmmaking doesn't come with a roadmap. 
 
-And because of this, we often find ourselves scouring the depths of the internet seeking advice that isn't a cliché like: 
-
-"It's not what you know, it's who you know" or "just pick up a camera and make a film".
+And because of this, we often find ourselves scouring the depths of the internet seeking advice. 
 
 Well, I've just recently had an epiphany about filmmaking as a career which I'm happy to share with you all...
 
